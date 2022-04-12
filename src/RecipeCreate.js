@@ -78,7 +78,7 @@ function RecipeCreate({ addRecipe }) {
               <input
                 id="photo"
                 required={true}
-                type="text"
+                type="url"
                 name="photo"
                 placeholder="Photo"
                 onChange={handlePhotoChange}
